@@ -18,7 +18,7 @@ export default function Projects() {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
+          {projects.map((project) => 
             <a
               href={project.link}
               key={project.image}
@@ -40,7 +40,7 @@ export default function Projects() {
                 </div>
               </div>
             </a>
-          ))}
+          )}
         </div>
       </div>
     </section>
