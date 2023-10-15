@@ -33,8 +33,8 @@ export default function About() {
             className="object-cover object-center rounded"
             alt="hero"
             
-            //src="./space0.svg"
-            src="./brianbrian.jpg"
+            src="./space0.svg"
+            //src="./brianbrian.jpg"
 
           />
         </div>
