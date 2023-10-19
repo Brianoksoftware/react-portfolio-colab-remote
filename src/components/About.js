@@ -10,20 +10,20 @@ export default function About() {
             <br className="" /> I am a Full-stack engineer.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am skilled in various technologies, languages & frameworks.
-            Including React, Python, Javascript, Html, CSS, Tailwind Css, Mongo DB,
-            Express, Node.js, React Native, Git.
+            I am skilled in various languages, frameworks & tools.
+            Including React, Python, Javascript, Html, CSS, Tailwind css, Mongo DB,
+            Express, Node.js, React Native, Git, Flask, Postgresql.
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+              className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
+              Contact Me
             </a>
             <a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
+              Projects
             </a>
           </div>
         </div>
