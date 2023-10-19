@@ -12,7 +12,7 @@ export default function About() {
           <p className="mb-8 leading-relaxed">
             I am skilled in various languages, frameworks & tools.
             Including React, Python, Javascript, Html, CSS, Tailwind css, Mongo DB,
-            Express, Node.js, React Native, Git, Flask, Postgresql.
+            Express, Node.js, React Native, Git, Flask, Postgresql, Linux.
           </p>
           <div className="flex justify-center">
             <a
