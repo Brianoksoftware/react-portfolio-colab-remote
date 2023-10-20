@@ -11,8 +11,8 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             I am skilled in various languages, frameworks & tools.
-            Including React, Python, Javascript, Mojo, Html, CSS, Tailwind css, Mongo DB,
-            Express, Node.js, React Native, Git, Flask, Postgresql, Ionic, Data structures, Algorithms, heroku, Angular and Capacitor
+            Including React, Python, Javascript, Mojo, Html, CSS, Tailwind CSS, Mongo DB,
+            Express, Node.js, React Native, Git, Flask, Postgresql, Linux, Ionic, Data structures, Algorithms, heroku, Angular and Capacitor
           </p>
           <div className="flex justify-center">
             <a
