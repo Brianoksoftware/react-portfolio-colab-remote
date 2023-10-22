@@ -1,6 +1,7 @@
-import { BadgeCheckIcon, TerminalIcon, UserCircleIcon, UserGroupIcon,UserAddIcon, ChipIcon } from "@heroicons/react/solid";
+import { BadgeCheckIcon, TerminalIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
+{/*import { BadgeCheckIcon, TerminalIcon, UserCircleIcon, UserGroupIcon,UserAddIcon, ChipIcon } from "@heroicons/react/solid";*/}
 
 export default function Skills() {
   return (
