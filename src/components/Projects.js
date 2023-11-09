@@ -1,4 +1,4 @@
-//import { CodeIcon, BriefcaseIcon } from "@heroicons/react/solid";
+import { BriefcaseIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
