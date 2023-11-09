@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* New changes */
+@media (max-width: 768px) {
+  #about {
+    margin: 0 auto;
+  }
+}
+
+#about {
+  width: 100%;
+  max-width: 960px;
+}
