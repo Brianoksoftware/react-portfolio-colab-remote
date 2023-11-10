@@ -14,7 +14,7 @@ export default function Projects() {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             I have worked on several software development projects and will be updating my portfolio soon.
-            Stay tuned!
+            Stay tuned.
           </p>
         </div>
         
@@ -45,7 +45,7 @@ export default function Projects() {
           </a>
         ))}
       </div>
-         
+
      
         
       </div>
