@@ -19,18 +19,17 @@ export default function Projects() {
         </div>
         
         
-        
-      <div className="flex flex-wrap -m-4">
+     <div className="flex flex-wrap -m-4">
         {projects.map((project) => (
           <a
             href={project.link}
             key={project.image}
-            className="sm:w-1/2 w-full p-4"> {/* Adjusted width for small screens so images take up whole width */}
+            className="sm:w-1/2 w-full p-4"> {/* Adjusted width for small screens */}
             <div className="flex relative">
               <img
                 alt="gallery"
-                className="absolute inset-0 w-full h-full object-cover object-center"
-                style={{ objectFit: 'cover' }} // Added objectFit style inlinely so img scales maintaining  aspect ratio while fully covering content box
+                className="absolute inset-0 w-full h-full object-contain"
+                style={{ maxHeight: '300px' }} // Set a maximum height as needed
                 src={project.image}
               />
               <div className="px-8 py-10 relative z-10 w-full border-2 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
@@ -46,8 +45,8 @@ export default function Projects() {
           </a>
         ))}
       </div>
-        
-        
+         
+     
         
       </div>
     </section>
